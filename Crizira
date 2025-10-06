@@ -2,9 +2,20 @@ ls 列出路径下文件
 pwd 列出当前路径
 cd [dic] 切换到指定dic
 git status 显示提交前的更改
-git add [file] 将文件提交到暂存区
+git add [file] 将文件提交到暂存区git
 git commit -m "msg" commit msg到本地
 git push 提交本地到远程
 git push -u origin 推送并设置上游branch
 git pull 从远程获取并合并更改
 git diff 显示文件的详细更改
+git branch 查看当前分支
+git switch -c [new_branch_name] 创建新分支
+git switch [existing_branch_main] 移动到别的分支
+git switch main 回到主分支
+git push -u origin [new_branch_name] 提交新分支到远程 
+conda create -n [env] 创建一个叫env的虚拟环境
+conda env create-f environment.yml 使用 environment.yml 文件创建 Conda 虚拟环境
+pip install [package name] 安装库
+conda activate [environment name] 使用指定虚拟环境
+conda deactivate 退出虚拟环境
+conda remove --name [env] --all 删除名为env的环境
