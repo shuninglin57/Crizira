@@ -22,7 +22,7 @@ pip list 检查已有安装包
 deactivate
 
 conda create -n [env] 创建一个叫env的虚拟环境
-conda env create-f environment.yml 使用 environment.yml 文件创建 Conda 虚拟环境
+conda env create -f environment.yml 使用 environment.yml 文件创建 Conda 虚拟环境
 pip install [package name] 安装库
 conda activate [environment name] 使用指定虚拟环境
 conda deactivate 退出虚拟环境
