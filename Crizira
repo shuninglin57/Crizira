@@ -7,12 +7,20 @@ git commit -m "msg" commit msg到本地
 git push 提交本地到远程
 git push -u origin 推送并设置上游branch
 git pull 从远程获取并合并更改
+git pull --ff-only
 git diff 显示文件的详细更改
 git branch 查看当前分支
 git switch -c [new_branch_name] 创建新分支
 git switch [existing_branch_main] 移动到别的分支
 git switch main 回到主分支
 git push -u origin [new_branch_name] 提交新分支到远程 
+
+
+python -m venv [env] 创建一个叫env的虚拟环境
+source [env]/bin/activate 激活虚拟环境
+pip list 检查已有安装包
+deactivate
+
 conda create -n [env] 创建一个叫env的虚拟环境
 conda env create-f environment.yml 使用 environment.yml 文件创建 Conda 虚拟环境
 pip install [package name] 安装库
