@@ -1,6 +1,7 @@
 ls 列出路径下文件
 pwd 列出当前路径
 cd [dic] 切换到指定dic
+git clone http://github.com/username/reponame.git 把github上的仓库克隆到本地
 git status 显示提交前的更改
 git add [file] 将文件提交到暂存区git
 git commit -m "msg" commit msg到本地
