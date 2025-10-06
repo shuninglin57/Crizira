@@ -1,0 +1,10 @@
+ls 列出路径下文件
+pwd 列出当前路径
+cd [dic] 切换到指定dic
+git status 显示提交前的更改
+git add [file] 将文件提交到暂存区
+git commit -m "msg" commit msg到本地
+git push 提交本地到远程
+git push -u origin 推送并设置上游branch
+git pull 从远程获取并合并更改
+git diff 显示文件的详细更改
