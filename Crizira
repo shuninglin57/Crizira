@@ -4,6 +4,7 @@ cd [dic] 切换到指定dic
 git clone http://github.com/username/reponame.git 把github上的仓库克隆到本地
 git status 显示提交前的更改
 git add [file] 将文件提交到暂存区git
+git commit -a 自动暂存修改已存在文件（无需用git add .），添加新文件仍需要git add .,再git commit
 git commit -m "msg" commit msg到本地
 git push 提交本地到远程
 git push -u origin 推送并设置上游branch
